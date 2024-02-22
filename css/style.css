@@ -108,3 +108,17 @@ a > img {
     border-radius: 100%;
     border: 0px solid;
 }
+
+
+footer {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  flex-direction: column; /* Align items in a column */
+  height: 10vh; /* Set the height of the footer to full viewport height */
+}
+
+footer > div {
+  display: flex;
+  flex-direction: row;
+}
